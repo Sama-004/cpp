@@ -1,18 +1,21 @@
-//triangular pattern with row number and then row number +1
 #include <iostream>
 using namespace std;
+
 int main(){
-    int rown;
-    cin>>rown;
+    int n;
+    cin>>n;
     int row=1;
-    int count=1;
-    while (row<=rown)
+    
+    while (row<=n)
     {
         int column=1;
-        while (column<=row)
+        
+        while (column<=n)
         {
-            cout<<count;
+            char ch=row+column+'A'-2;           
+            cout<<ch;
             column=column+1;
+           
         }
         cout<<endl;
         row=row+1;

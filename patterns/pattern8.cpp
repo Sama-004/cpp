@@ -7,11 +7,11 @@ int main(){
     while (row<=m)
     {
         int column=1;
-        int count=row;
         while (column<=row)
         {
-            cout<<count;
-            count=count+1;
+            
+            cout<<row;
+            
 
             column=column+1;
         }
