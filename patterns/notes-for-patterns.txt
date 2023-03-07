@@ -4,4 +4,6 @@
 2.How many column is there in pattern (if it is triangular pattern then column<=rows
                                         for square pattern the number of column=n) // n is the number of rows given by the user as input.
 3. What to print. What is the pattern we need to print if its a * or if it's a pattern with numbers then find the formula for printing the required patterm.
-
+4. When you have pattern like A
+                              ABC  like this convert it to numericals 1
+                                                                      123 and then find a formula for printing Alphabets also typecasting will be required for this 
